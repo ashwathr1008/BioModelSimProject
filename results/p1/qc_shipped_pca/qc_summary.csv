@@ -1,0 +1,4 @@
+cid,spliced_all_finite,unspliced_all_finite,Ms_all_finite,Mu_all_finite,Ms_n_constant_genes,Mu_n_constant_genes,gene_order_matches_source,skeleton_identical_to_source,skeleton_aligned_to_var,graph_n_components,graph_largest_component_frac,knn_jaccard_vs_shipped_graph,boundary_PAX3+MyoProg->MyoB1,boundary_MyoB1->MyoC1,boundary_PAX3+PAX7+MyoProg->MyoB2,boundary_MyoB2->MyoC2
+full_r0,True,True,True,True,0,0,True,True,True,1,1.0,0.9332483204989281,167,99,516,307
+random_r0,True,True,True,True,0,0,True,True,True,1,1.0,0.9317863996414405,162,99,481,291
+targeted_r0,True,True,True,True,0,0,True,True,True,1,1.0,0.919491377435391,135,32,539,309

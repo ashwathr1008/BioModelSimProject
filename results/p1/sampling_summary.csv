@@ -1,0 +1,10 @@
+condition,repeat,sampling_seed,training_seed,n_retained,n_removed,n_target_retained,n_target_removed,n_endpoint_retained
+full,0,1000,0,12207,0,759,0,2870
+targeted,0,1000,0,11638,569,190,569,2870
+random,0,1000,0,11638,569,713,46,2870
+full,1,1001,1,12207,0,759,0,2870
+targeted,1,1001,1,11638,569,190,569,2870
+random,1,1001,1,11638,569,712,47,2870
+full,2,1002,2,12207,0,759,0,2870
+targeted,2,1002,2,11638,569,190,569,2870
+random,2,1002,2,11638,569,702,57,2870
