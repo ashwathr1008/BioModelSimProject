@@ -1,15 +1,12 @@
 # BioModelSimProject: RegVelo under incomplete developmental sampling
 
-02-512/02-712 final project. Plan: `regvelo_project_plan.md` (audited version:
-`regvelo_project_plan_audited.md`). Roles: `regvelo_team_work_allocation.md`.
-
-## Layout
-
-```
-config/experiment.yaml   shared frozen settings (sampling, preprocessing, seeds, endpoints)
-src/p1_data/             Person 1: input checks, sampling manifests, per-condition rebuild
-scripts/p1_0*.py         Person 1 entry points (run in order)
-docs/p1_data_notes.md    Person 1 findings, decisions and the hand-off contract
-results/p1/              manifests, QC tables and figures (committed; small)
-data/                    raw + prepared AnnData (gitignored; regenerate with the scripts)
-```
+- Final project for 02-512/02-712 Computational Methods for Biological Modeling and Simulation (CMU, Fall 2026).
+- Question: if one intermediate cell population is under-sampled, do RegVelo's predictions change more than when the same number of random cells is removed?
+- Model: RegVelo (Wang et al., *Cell* 2026), which couples RNA splicing dynamics with a gene regulatory network; CellRank turns its output into cell-fate probabilities.
+- Data: human embryonic limb muscle development, 12,207 cells and 606 genes from post-conception weeks 5–9.
+- Design: three conditions, each run three times (nine model fits):
+  - full data;
+  - 75% of MyoB1 myoblasts removed;
+  - the same number of random cells removed.
+- Endpoint cell types (PAX7+MyoProg1, MYH3+MyoC, MYL3+MyoC) are never removed.
+- Readouts: predicted effects of switching off MSC and MYOG, cell-fate probabilities, transition scores, and latent time versus developmental stage.
