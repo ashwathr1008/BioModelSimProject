@@ -1,0 +1,84 @@
+{
+  "shape": [
+    12207,
+    606
+  ],
+  "layers": [
+    "Ms",
+    "Mu",
+    "ambiguous",
+    "matrix",
+    "spliced",
+    "unspliced",
+    "None"
+  ],
+  "obs_columns": [
+    "percent_mito",
+    "n_counts",
+    "n_genes",
+    "doublet_scores",
+    "bh_pval",
+    "adj_stage",
+    "adj_sample",
+    "leiden",
+    "S_score",
+    "G2M_score",
+    "phase",
+    "leiden_R",
+    "leiden_R_celltype",
+    "initial_size_unspliced",
+    "initial_size_spliced",
+    "initial_size"
+  ],
+  "provenance": {
+    "spliced_is_per_cell_normalized_raw": 1.0,
+    "spliced_norm_constant": 6601.0,
+    "unspliced_is_per_cell_normalized_raw": 1.0,
+    "unspliced_norm_constant": 1569.0,
+    "matrix_equals_S_plus_U_plus_ambiguous": 1.0,
+    "X_min": 0.0,
+    "X_max": 6.557345867156982,
+    "X_equals_log1p_spliced_maxabs": 6.415957927703857,
+    "Ms_reproduced_from_shipped_graph_maxabs": 4.431185568476437e-07,
+    "Mu_reproduced_from_shipped_graph_maxabs": 4.0019539382374347e-07,
+    "shipped_pca_vs_606gene_pca_abs_corr_pc1to5": [
+      0.952,
+      0.053,
+      0.004,
+      0.195,
+      0.042
+    ],
+    "neighbors_params": {
+      "method": "umap",
+      "metric": "euclidean",
+      "n_neighbors": 30,
+      "n_pcs": 30,
+      "random_state": 0
+    }
+  },
+  "grn": {
+    "skeleton_type": "DataFrame",
+    "skeleton_index_matches_var": true,
+    "skeleton_columns_match_var": true,
+    "shape": [
+      606,
+      606
+    ],
+    "values": [
+      0.0,
+      1.0
+    ],
+    "n_edges": 3834,
+    "self_loops": 0,
+    "n_TF_annotated": 77,
+    "n_rows_with_outgoing_edges": 76,
+    "orientation_rows_are_regulators": true,
+    "genes_without_incoming_edges": 0,
+    "MSC_is_TF": true,
+    "MSC_out_degree": 283,
+    "MSC_in_degree": 6,
+    "MYOG_is_TF": true,
+    "MYOG_out_degree": 297,
+    "MYOG_in_degree": 13
+  }
+}

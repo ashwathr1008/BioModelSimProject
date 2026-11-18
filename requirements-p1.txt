@@ -1,0 +1,9 @@
+# Person 1 (data, sampling, preprocessing). Tested with Python 3.10.
+anndata>=0.10        # tested 0.11.4
+scanpy>=1.10         # tested 1.11.5
+numpy                # tested 2.2.6
+scipy                # tested 1.15.3
+pandas               # tested 2.3.3
+scikit-learn         # tested 1.7.2 (exact kNN transformer)
+matplotlib
+pyyaml

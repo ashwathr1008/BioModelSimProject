@@ -1,0 +1,11 @@
+# data and large outputs (never commit)
+data/
+*.h5ad
+*.pt
+*.pth
+results/**/models/
+# python / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
