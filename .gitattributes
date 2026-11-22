@@ -1,0 +1,6 @@
+*.sh text eol=lf
+*.py text eol=lf
+# Preserve frozen configuration and output bytes used by release checksums.
+config/p2_x.yaml -text
+config/p2_both_pca.yaml -text
+results/p2/** -text

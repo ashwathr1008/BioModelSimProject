@@ -1,0 +1,21 @@
+{
+  "purpose": "Integration validation only; temporary 1024-cell, 2-epoch fit; not one of the 19 scientific fits",
+  "status": "passed",
+  "checkpoint_reload": true,
+  "training_seed": 912,
+  "memory_optimization": {
+    "method": "checkpoint_ode_by_cell",
+    "chunk_size": 2048,
+    "use_reentrant": false,
+    "training_batch": "full",
+    "checkpoint_scope": "ODE only"
+  },
+  "n_cells": 1024,
+  "n_genes": 606,
+  "batch_size": 1024,
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 4090 Laptop GPU",
+  "epochs": 2,
+  "stage_spearman": -0.0448603508968714,
+  "gpu_peak_allocated_mib": 2400
+}

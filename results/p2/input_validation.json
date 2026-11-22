@@ -1,0 +1,776 @@
+{
+  "X/full_r0": {
+    "shape": [
+      12207,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3627,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1790,
+      "MyoB2": 1527,
+      "MyoB1": 759,
+      "MyoC2": 639,
+      "PAX3+MyoProg": 583,
+      "MyoC1": 412,
+      "MYL3+MyoC": 374,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.11518752165881864
+  },
+  "X/targeted_r0": {
+    "shape": [
+      11638,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3627,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1790,
+      "MyoB2": 1527,
+      "MyoC2": 639,
+      "PAX3+MyoProg": 583,
+      "MyoC1": 412,
+      "MYL3+MyoC": 374,
+      "MyoB1": 190,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.11375917442422577
+  },
+  "X/random_r0": {
+    "shape": [
+      11638,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3416,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1684,
+      "MyoB2": 1420,
+      "MyoB1": 713,
+      "MyoC2": 603,
+      "PAX3+MyoProg": 544,
+      "MyoC1": 388,
+      "MYL3+MyoC": 374,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.11588252949060547
+  },
+  "X/full_r1": {
+    "shape": [
+      12207,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3627,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1790,
+      "MyoB2": 1527,
+      "MyoB1": 759,
+      "MyoC2": 639,
+      "PAX3+MyoProg": 583,
+      "MyoC1": 412,
+      "MYL3+MyoC": 374,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.11518752165881864
+  },
+  "X/targeted_r1": {
+    "shape": [
+      11638,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3627,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1790,
+      "MyoB2": 1527,
+      "MyoC2": 639,
+      "PAX3+MyoProg": 583,
+      "MyoC1": 412,
+      "MYL3+MyoC": 374,
+      "MyoB1": 190,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.11346912322877004
+  },
+  "X/random_r1": {
+    "shape": [
+      11638,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3408,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1682,
+      "MyoB2": 1426,
+      "MyoB1": 712,
+      "MyoC2": 605,
+      "PAX3+MyoProg": 550,
+      "MyoC1": 385,
+      "MYL3+MyoC": 374,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.1162133777414982
+  },
+  "X/full_r2": {
+    "shape": [
+      12207,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3627,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1790,
+      "MyoB2": 1527,
+      "MyoB1": 759,
+      "MyoC2": 639,
+      "PAX3+MyoProg": 583,
+      "MyoC1": 412,
+      "MYL3+MyoC": 374,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.11518752165881864
+  },
+  "X/targeted_r2": {
+    "shape": [
+      11638,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3627,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1790,
+      "MyoB2": 1527,
+      "MyoC2": 639,
+      "PAX3+MyoProg": 583,
+      "MyoC1": 412,
+      "MYL3+MyoC": 374,
+      "MyoB1": 190,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.11345184369153585
+  },
+  "X/random_r2": {
+    "shape": [
+      11638,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3401,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1682,
+      "MyoB2": 1445,
+      "MyoB1": 702,
+      "MyoC2": 594,
+      "PAX3+MyoProg": 554,
+      "MyoC1": 390,
+      "MYL3+MyoC": 374,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.11643643451213889
+  },
+  "shipped_pca/full_r0": {
+    "shape": [
+      12207,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3627,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1790,
+      "MyoB2": 1527,
+      "MyoB1": 759,
+      "MyoC2": 639,
+      "PAX3+MyoProg": 583,
+      "MyoC1": 412,
+      "MYL3+MyoC": 374,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.9332483204989281
+  },
+  "shipped_pca/targeted_r0": {
+    "shape": [
+      11638,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3627,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1790,
+      "MyoB2": 1527,
+      "MyoC2": 639,
+      "PAX3+MyoProg": 583,
+      "MyoC1": 412,
+      "MYL3+MyoC": 374,
+      "MyoB1": 190,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.919491377435391
+  },
+  "shipped_pca/random_r0": {
+    "shape": [
+      11638,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3416,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1684,
+      "MyoB2": 1420,
+      "MyoB1": 713,
+      "MyoC2": 603,
+      "PAX3+MyoProg": 544,
+      "MyoC1": 388,
+      "MYL3+MyoC": 374,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.9317863996414405
+  },
+  "shipped_pca/full_r1": {
+    "shape": [
+      12207,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3627,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1790,
+      "MyoB2": 1527,
+      "MyoB1": 759,
+      "MyoC2": 639,
+      "PAX3+MyoProg": 583,
+      "MyoC1": 412,
+      "MYL3+MyoC": 374,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.9332483204989281
+  },
+  "shipped_pca/targeted_r1": {
+    "shape": [
+      11638,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3627,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1790,
+      "MyoB2": 1527,
+      "MyoC2": 639,
+      "PAX3+MyoProg": 583,
+      "MyoC1": 412,
+      "MYL3+MyoC": 374,
+      "MyoB1": 190,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.9192346962512766
+  },
+  "shipped_pca/random_r1": {
+    "shape": [
+      11638,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3408,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1682,
+      "MyoB2": 1426,
+      "MyoB1": 712,
+      "MyoC2": 605,
+      "PAX3+MyoProg": 550,
+      "MyoC1": 385,
+      "MYL3+MyoC": 374,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.9320949920909685
+  },
+  "shipped_pca/full_r2": {
+    "shape": [
+      12207,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3627,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1790,
+      "MyoB2": 1527,
+      "MyoB1": 759,
+      "MyoC2": 639,
+      "PAX3+MyoProg": 583,
+      "MyoC1": 412,
+      "MYL3+MyoC": 374,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.9332483204989281
+  },
+  "shipped_pca/targeted_r2": {
+    "shape": [
+      11638,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3627,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1790,
+      "MyoB2": 1527,
+      "MyoC2": 639,
+      "PAX3+MyoProg": 583,
+      "MyoC1": 412,
+      "MYL3+MyoC": 374,
+      "MyoB1": 190,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.9196603908921385
+  },
+  "shipped_pca/random_r2": {
+    "shape": [
+      11638,
+      606
+    ],
+    "spliced_all_finite": true,
+    "unspliced_all_finite": true,
+    "Ms_all_finite": true,
+    "Mu_all_finite": true,
+    "Ms_n_constant_genes": 0,
+    "Ms_range": [
+      0.0,
+      1.0
+    ],
+    "Mu_n_constant_genes": 0,
+    "Mu_range": [
+      0.0,
+      1.0
+    ],
+    "gene_order_matches_source": true,
+    "skeleton_identical_to_source": true,
+    "skeleton_aligned_to_var": true,
+    "graph_n_components": 1,
+    "graph_largest_component_frac": 1.0,
+    "endpoint_counts": {
+      "PAX7+MyoProg1": 2317,
+      "MYH3+MyoC": 179,
+      "MYL3+MyoC": 374
+    },
+    "celltype_counts": {
+      "PAX7+MyoProg2": 3401,
+      "PAX7+MyoProg1": 2317,
+      "PAX3+PAX7+MyoProg": 1682,
+      "MyoB2": 1445,
+      "MyoB1": 702,
+      "MyoC2": 594,
+      "PAX3+MyoProg": 554,
+      "MyoC1": 390,
+      "MYL3+MyoC": 374,
+      "MYH3+MyoC": 179
+    },
+    "knn_jaccard_vs_shipped_graph": 0.9318026067864787
+  }
+}

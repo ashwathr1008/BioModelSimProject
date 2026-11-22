@@ -1,0 +1,365 @@
+{
+  "purpose": "Numerical/memory verification only; no scientific fit or training epoch",
+  "created_utc": "2026-11-21T15:53:29.758235+00:00",
+  "packages": {
+    "regvelo": "1.0.0",
+    "torchode": "1.0.1",
+    "torch": "2.5.1+cu124",
+    "scvi-tools": "1.2.0"
+  },
+  "gpu": "NVIDIA GeForce RTX 4090 Laptop GPU",
+  "dtype": "float32",
+  "n_genes": 606,
+  "gradient_tolerances": {
+    "rtol": 0.0005,
+    "atol": 5e-06
+  },
+  "status": "passed",
+  "full_module": {
+    "n_cells": 65,
+    "chunk_size": 32,
+    "checks": [
+      {
+        "name": "loss",
+        "max_abs_difference": 0.0,
+        "reference_max_abs": 6284.41748046875,
+        "relative_l2_difference": 0.0
+      },
+      {
+        "name": "spliced",
+        "max_abs_difference": 1.5497207641601562e-05,
+        "reference_max_abs": 2.4809656143188477,
+        "relative_l2_difference": 8.336423888977151e-07
+      },
+      {
+        "name": "unspliced",
+        "max_abs_difference": 3.874301910400391e-06,
+        "reference_max_abs": 0.8289332389831543,
+        "relative_l2_difference": 6.109656283115328e-07
+      },
+      {
+        "name": "time",
+        "max_abs_difference": 0.0,
+        "reference_max_abs": 16.827957153320312,
+        "relative_l2_difference": 0.0
+      },
+      {
+        "name": "gradient:gamma_mean_unconstr",
+        "max_abs_difference": 1.049041748046875e-05,
+        "reference_max_abs": 12.381392478942871,
+        "relative_l2_difference": 2.8708720378745056e-07
+      },
+      {
+        "name": "gradient:beta_mean_unconstr",
+        "max_abs_difference": 8.344650268554688e-07,
+        "reference_max_abs": 1.0625571012496948,
+        "relative_l2_difference": 3.728784747636382e-07
+      },
+      {
+        "name": "gradient:alpha_unconstr",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:alpha_1_unconstr",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:scale_unconstr_targets",
+        "max_abs_difference": 4.76837158203125e-06,
+        "reference_max_abs": 6.722015380859375,
+        "relative_l2_difference": 2.4756675998105493e-07
+      },
+      {
+        "name": "gradient:z_encoder.encoder.fc_layers.Layer 0.0.weight",
+        "max_abs_difference": 1.955777406692505e-06,
+        "reference_max_abs": 1.4647879600524902,
+        "relative_l2_difference": 1.3515502814698266e-06
+      },
+      {
+        "name": "gradient:z_encoder.encoder.fc_layers.Layer 0.0.bias",
+        "max_abs_difference": 1.0728836059570312e-06,
+        "reference_max_abs": 4.470348358154297e-07,
+        "relative_l2_difference": 1.2786730527877808
+      },
+      {
+        "name": "gradient:z_encoder.encoder.fc_layers.Layer 0.1.weight",
+        "max_abs_difference": 2.384185791015625e-07,
+        "reference_max_abs": 0.15699046850204468,
+        "relative_l2_difference": 1.3129114222465432e-06
+      },
+      {
+        "name": "gradient:z_encoder.encoder.fc_layers.Layer 0.1.bias",
+        "max_abs_difference": 2.7567148208618164e-07,
+        "reference_max_abs": 0.2545015811920166,
+        "relative_l2_difference": 1.2422959798641386e-06
+      },
+      {
+        "name": "gradient:z_encoder.mean_encoder.weight",
+        "max_abs_difference": 2.4810433387756348e-06,
+        "reference_max_abs": 2.0399162769317627,
+        "relative_l2_difference": 1.3100649312036694e-06
+      },
+      {
+        "name": "gradient:z_encoder.mean_encoder.bias",
+        "max_abs_difference": 7.152557373046875e-07,
+        "reference_max_abs": 0.2675987482070923,
+        "relative_l2_difference": 2.306069745827699e-06
+      },
+      {
+        "name": "gradient:z_encoder.var_encoder.weight",
+        "max_abs_difference": 9.331852197647095e-07,
+        "reference_max_abs": 0.6998357176780701,
+        "relative_l2_difference": 1.1619428050835268e-06
+      },
+      {
+        "name": "gradient:z_encoder.var_encoder.bias",
+        "max_abs_difference": 5.960464477539062e-07,
+        "reference_max_abs": 0.5855734348297119,
+        "relative_l2_difference": 1.1015672498615459e-06
+      },
+      {
+        "name": "gradient:decoder.rho_first_decoder.fc_layers.Layer 0.0.weight",
+        "max_abs_difference": 1.4603137969970703e-06,
+        "reference_max_abs": 0.9994863867759705,
+        "relative_l2_difference": 1.2028137916786363e-06
+      },
+      {
+        "name": "gradient:decoder.rho_first_decoder.fc_layers.Layer 0.0.bias",
+        "max_abs_difference": 5.21540641784668e-07,
+        "reference_max_abs": 5.066394805908203e-07,
+        "relative_l2_difference": 1.288697600364685
+      },
+      {
+        "name": "gradient:decoder.rho_first_decoder.fc_layers.Layer 0.1.weight",
+        "max_abs_difference": 4.246830940246582e-07,
+        "reference_max_abs": 1.9189752340316772,
+        "relative_l2_difference": 2.7111892109132896e-07
+      },
+      {
+        "name": "gradient:decoder.rho_first_decoder.fc_layers.Layer 0.1.bias",
+        "max_abs_difference": 5.438923835754395e-07,
+        "reference_max_abs": 2.7909021377563477,
+        "relative_l2_difference": 2.2595294524307974e-07
+      },
+      {
+        "name": "gradient:decoder.px_rho_decoder.0.weight",
+        "max_abs_difference": 1.6689300537109375e-06,
+        "reference_max_abs": 1.6903135776519775,
+        "relative_l2_difference": 2.8329722567832505e-07
+      },
+      {
+        "name": "gradient:decoder.px_rho_decoder.0.bias",
+        "max_abs_difference": 1.1920928955078125e-06,
+        "reference_max_abs": 3.098446846008301,
+        "relative_l2_difference": 1.9223971037263254e-07
+      },
+      {
+        "name": "gradient:v_encoder.fc1.weight",
+        "max_abs_difference": 2.47955322265625e-05,
+        "reference_max_abs": 26.50942611694336,
+        "relative_l2_difference": 2.876225266845722e-07
+      },
+      {
+        "name": "gradient:v_encoder.fc1.bias",
+        "max_abs_difference": 1.239776611328125e-05,
+        "reference_max_abs": 15.567095756530762,
+        "relative_l2_difference": 2.679892361356906e-07
+      }
+    ],
+    "global_sort_equal": true,
+    "batchnorm_buffers_equal": true,
+    "original_peak_mib": 186.177734375,
+    "optimized_peak_mib": 117.359375
+  },
+  "direct_ode": {
+    "n_cells": 65,
+    "chunk_size": 32,
+    "checks": [
+      {
+        "name": "u",
+        "max_abs_difference": 3.874301910400391e-06,
+        "reference_max_abs": 0.8266243934631348,
+        "relative_l2_difference": 7.022488262009574e-07
+      },
+      {
+        "name": "s",
+        "max_abs_difference": 1.5497207641601562e-05,
+        "reference_max_abs": 2.5567479133605957,
+        "relative_l2_difference": 7.769569947413402e-07
+      },
+      {
+        "name": "time_gradient",
+        "max_abs_difference": 3.8198777474462986e-11,
+        "reference_max_abs": 1.1421056115068495e-05,
+        "relative_l2_difference": 1.0324538379791193e-06
+      },
+      {
+        "name": "gradient:gamma_mean_unconstr",
+        "max_abs_difference": 3.026798367500305e-09,
+        "reference_max_abs": 0.003169433446601033,
+        "relative_l2_difference": 3.3640685614955146e-07
+      },
+      {
+        "name": "gradient:beta_mean_unconstr",
+        "max_abs_difference": 6.984919309616089e-10,
+        "reference_max_abs": 0.0010531911393627524,
+        "relative_l2_difference": 2.636257931953878e-07
+      },
+      {
+        "name": "gradient:alpha_unconstr",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:alpha_1_unconstr",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:scale_unconstr_targets",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:z_encoder.encoder.fc_layers.Layer 0.0.weight",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:z_encoder.encoder.fc_layers.Layer 0.0.bias",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:z_encoder.encoder.fc_layers.Layer 0.1.weight",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:z_encoder.encoder.fc_layers.Layer 0.1.bias",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:z_encoder.mean_encoder.weight",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:z_encoder.mean_encoder.bias",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:z_encoder.var_encoder.weight",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:z_encoder.var_encoder.bias",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:decoder.rho_first_decoder.fc_layers.Layer 0.0.weight",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:decoder.rho_first_decoder.fc_layers.Layer 0.0.bias",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:decoder.rho_first_decoder.fc_layers.Layer 0.1.weight",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:decoder.rho_first_decoder.fc_layers.Layer 0.1.bias",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:decoder.px_rho_decoder.0.weight",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:decoder.px_rho_decoder.0.bias",
+        "unused_in_both": true
+      },
+      {
+        "name": "gradient:v_encoder.fc1.weight",
+        "max_abs_difference": 7.916241884231567e-09,
+        "reference_max_abs": 0.007362075615674257,
+        "relative_l2_difference": 3.130732295630878e-07
+      },
+      {
+        "name": "gradient:v_encoder.fc1.bias",
+        "max_abs_difference": 3.725290298461914e-09,
+        "reference_max_abs": 0.004368049558252096,
+        "relative_l2_difference": 2.6423549570608884e-07
+      }
+    ],
+    "global_sort_equal": true
+  },
+  "unsupported_shapes_rejected": true,
+  "benchmark": [
+    {
+      "mode": "original",
+      "n_cells": 513,
+      "chunk_size": null,
+      "peak_allocated_mib": 1307.853515625,
+      "elapsed_seconds": 0.6015043000079459
+    },
+    {
+      "mode": "checkpointed",
+      "n_cells": 513,
+      "chunk_size": 128,
+      "peak_allocated_mib": 366.056640625,
+      "elapsed_seconds": 3.1075777000078233
+    }
+  ],
+  "chunk_size_benchmark": [
+    {
+      "n_cells": 2049,
+      "chunk_size": null,
+      "peak_allocated_mib": 5152.27880859375,
+      "elapsed_seconds": 1.0745496999879833,
+      "loss_and_all_gradients_match_reference": true
+    },
+    {
+      "n_cells": 2049,
+      "chunk_size": 256,
+      "peak_allocated_mib": 761.78759765625,
+      "elapsed_seconds": 6.350273899995955,
+      "loss_and_all_gradients_match_reference": true
+    },
+    {
+      "n_cells": 2049,
+      "chunk_size": 512,
+      "peak_allocated_mib": 1386.2626953125,
+      "elapsed_seconds": 3.313354199999594,
+      "loss_and_all_gradients_match_reference": true
+    },
+    {
+      "n_cells": 2049,
+      "chunk_size": 1024,
+      "peak_allocated_mib": 2663.4150390625,
+      "elapsed_seconds": 1.813403100008145,
+      "loss_and_all_gradients_match_reference": true
+    },
+    {
+      "n_cells": 2049,
+      "chunk_size": 2048,
+      "peak_allocated_mib": 5198.8759765625,
+      "elapsed_seconds": 1.021734000009019,
+      "loss_and_all_gradients_match_reference": true
+    }
+  ],
+  "full_training_batch_benchmark": {
+    "status": "passed",
+    "n_train": 10987,
+    "n_validation": 1220,
+    "chunk_size": 2048,
+    "allocator_limit_fraction": 0.8,
+    "optimizer_steps": 0,
+    "peak_allocated_mib": 5592.69775390625,
+    "elapsed_seconds": 5.560299299992039,
+    "loss": 6304.44580078125,
+    "finite_gradients": true
+  },
+  "checkpoint_reload": {
+    "status": "passed",
+    "device": "cpu",
+    "state_dict_exact": true,
+    "n_state_entries": 43,
+    "standard_unpatched_REGVELOVI_load": true,
+    "note": "Untrained model serialization verification only; patch must be reapplied when training resumes."
+  }
+}

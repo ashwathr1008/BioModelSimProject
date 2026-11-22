@@ -1,0 +1,42 @@
+{
+  "status": "failed",
+  "condition": "tutorial",
+  "repeat": 0,
+  "pca_input": "shipped",
+  "training_seed": 0,
+  "sampling_seed": null,
+  "model": "soft_regularized",
+  "settings": {
+    "training_seeds": [
+      0,
+      1,
+      2
+    ],
+    "lam2": 1.0,
+    "max_epochs": 1500,
+    "posterior_samples": 30
+  },
+  "training_options": {
+    "optimizer": "AdamW",
+    "lr": 0.01,
+    "weight_decay": 1e-05,
+    "eps": 1e-16,
+    "train_size": 0.9,
+    "validation_size": null,
+    "early_stopping": true,
+    "gradient_clip_val": 10,
+    "early_stopping_patience": 45,
+    "early_stopping_monitor": "elbo_validation",
+    "accelerator": "gpu",
+    "devices": [
+      0
+    ]
+  },
+  "interpreter": "C:\\Users\\ashwa\\Documents\\02-712 Computational Methods for Biological Modeling and Simulation\\BioModelSimProject\\.venv\\Scripts\\python.exe",
+  "python": "3.12.6",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "error": "Stopped feasibility attempt: full-batch training used 15.48 GiB dedicated plus 13.49 GiB shared GPU memory; first logged epoch took 100.29 seconds. No completed fit saved.",
+  "elapsed_seconds": 185.2,
+  "completed_epochs_before_stop": 1
+}

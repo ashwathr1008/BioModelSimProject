@@ -1,0 +1,11 @@
+scope,repeat,left_pca,left_condition,right_pca,right_condition,n_shared,latent_time_spearman,stage_spearman_right_minus_left
+baseline_pilots,0,tutorial,tutorial,X,full,12207,0.7539916746713649,-0.11459467420572755
+shared_repeat,0,X,full,X,targeted,11104,0.9741644126578207,-0.0042700579330055
+shared_repeat,0,X,full,X,random,11104,0.9568157401984232,-0.11127453702747087
+shared_repeat,0,X,targeted,X,random,11104,0.9484315910007831,-0.10700447909446537
+shared_repeat,1,X,full,X,targeted,11105,0.9723736440943889,-0.023249539308870526
+shared_repeat,1,X,full,X,random,11105,0.9844791309105179,0.037523950973951226
+shared_repeat,1,X,targeted,X,random,11105,0.9651473257079527,0.06077349028282175
+shared_repeat,2,X,full,X,targeted,11113,0.9450413931988496,0.10616303576302505
+shared_repeat,2,X,full,X,random,11113,0.9814719713611285,0.05844468939032649
+shared_repeat,2,X,targeted,X,random,11113,0.9588669327103803,-0.04771834637269856

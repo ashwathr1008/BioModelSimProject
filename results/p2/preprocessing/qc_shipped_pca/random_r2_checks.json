@@ -1,0 +1,39 @@
+{
+  "spliced_all_finite": true,
+  "unspliced_all_finite": true,
+  "Ms_all_finite": true,
+  "Mu_all_finite": true,
+  "Ms_n_constant_genes": 0,
+  "Ms_range": [
+    0.0,
+    1.0
+  ],
+  "Mu_n_constant_genes": 0,
+  "Mu_range": [
+    0.0,
+    1.0
+  ],
+  "gene_order_matches_source": true,
+  "skeleton_identical_to_source": true,
+  "skeleton_aligned_to_var": true,
+  "graph_n_components": 1,
+  "graph_largest_component_frac": 1.0,
+  "endpoint_counts": {
+    "PAX7+MyoProg1": 2317,
+    "MYH3+MyoC": 179,
+    "MYL3+MyoC": 374
+  },
+  "celltype_counts": {
+    "PAX7+MyoProg2": 3401,
+    "PAX7+MyoProg1": 2317,
+    "PAX3+PAX7+MyoProg": 1682,
+    "MyoB2": 1445,
+    "MyoB1": 702,
+    "MyoC2": 594,
+    "PAX3+MyoProg": 554,
+    "MyoC1": 390,
+    "MYL3+MyoC": 374,
+    "MYH3+MyoC": 179
+  },
+  "knn_jaccard_vs_shipped_graph": 0.9318026067864787
+}

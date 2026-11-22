@@ -37,6 +37,9 @@ sampling:
 
 model:
   training_seeds: [0, 1, 2]       # owned by Person 2; repeat r uses training_seeds[r]
+  lam2: 1.0                      # tutorial's soft_regularized model
+  max_epochs: 1500               # early stopping monitors validation ELBO
+  posterior_samples: 30
 
 preprocessing:
   pca_input: X                    # X (shipped per-cell normalized log expression) or log1p_spliced

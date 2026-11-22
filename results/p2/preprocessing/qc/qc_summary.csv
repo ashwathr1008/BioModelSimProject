@@ -1,0 +1,10 @@
+cid,spliced_all_finite,unspliced_all_finite,Ms_all_finite,Mu_all_finite,Ms_n_constant_genes,Mu_n_constant_genes,gene_order_matches_source,skeleton_identical_to_source,skeleton_aligned_to_var,graph_n_components,graph_largest_component_frac,knn_jaccard_vs_shipped_graph,boundary_PAX3+MyoProg->MyoB1,boundary_MyoB1->MyoC1,boundary_PAX3+PAX7+MyoProg->MyoB2,boundary_MyoB2->MyoC2
+full_r0,True,True,True,True,0,0,True,True,True,1,1.0,0.11518752165881864,222,163,764,469
+full_r1,True,True,True,True,0,0,True,True,True,1,1.0,0.11518752165881864,222,163,764,469
+full_r2,True,True,True,True,0,0,True,True,True,1,1.0,0.11518752165881864,222,163,764,469
+random_r0,True,True,True,True,0,0,True,True,True,1,1.0,0.11588252949060547,210,159,719,441
+random_r1,True,True,True,True,0,0,True,True,True,1,1.0,0.1162133777414982,218,155,735,448
+random_r2,True,True,True,True,0,0,True,True,True,1,1.0,0.11643643451213889,201,151,739,456
+targeted_r0,True,True,True,True,0,0,True,True,True,1,1.0,0.11375917442422577,148,56,790,480
+targeted_r1,True,True,True,True,0,0,True,True,True,1,1.0,0.11346912322877004,155,63,786,481
+targeted_r2,True,True,True,True,0,0,True,True,True,1,1.0,0.11345184369153585,165,52,792,479

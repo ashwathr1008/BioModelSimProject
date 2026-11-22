@@ -4,7 +4,27 @@ data/
 *.pt
 *.pth
 results/**/models/
+results/p2/**/.fit.lock
+results/p2/.queue.lock
+results/p2/.keep_awake.lock
+results/p2/.finish_current.lock
+results/p2/.local_followup.lock
+results/p2/logs/
+results/p2/delta_transfer/
+results/p2/delta_access.txt
+results/p2/release_assets/
+# Local process state; scientific run records remain tracked.
+results/p2/queue.json
+results/p2/launch.json
+results/p2/keep_awake.json
+results/p2/finish_current.json
+results/p2/local_followup.json
+results/p2/execution_plan.json
 # python / OS
+/.venv/
+/.venv-py310-original/
+/.venv-delta/
+/.venv-delta.setup.lock
 __pycache__/
 *.pyc
 .ipynb_checkpoints/

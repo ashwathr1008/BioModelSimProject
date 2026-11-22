@@ -1,0 +1,61 @@
+# Person 2 run: tutorial plus both PCA variants, three conditions and three repeats each.
+# Rebuild all inputs in one environment; preserve Person 1 inputs and QC.
+# Shared, frozen experiment configuration.
+# Person 1 owns `data`, `sampling` and `preprocessing`; other sections are owned by
+# the people named in regvelo_team_work_allocation.md. Change values only by team agreement,
+# and only before the main experiment starts.
+
+project: regvelo_thinning_myogenesis
+
+data:
+  source_file: data/raw/adata_humanlimb_preprocessed.h5ad
+  source_url: "https://drive.usercontent.google.com/download?id=17ZaqWx91w--iTtwWMR-SCh6wZO3bzMtM&export=download&authuser=0&confirm=t&uuid=7bdbe7b7-380d-4075-bbe2-1bb65fc0b0a2&at=AN8xHoor6c_hR8_eEd7EENc6dV9M:1750766911809"
+  expected_sha256: 27ee1272d31a13c57926f71c3456acfd9e81c8e2ef897dcd643c4879f7f2fb8c
+  celltype_key: leiden_R_celltype
+  stage_key: adj_stage
+  sample_key: adj_sample
+
+endpoints:            # protected: never removed in any condition
+  - PAX7+MyoProg1
+  - MYH3+MyoC
+  - MYL3+MyoC
+
+transitions:          # annotated transitions scored with CBC (source, target)
+  - [PAX3+MyoProg, MyoB1]
+  - [MyoB1, MyoC1]
+  - [PAX3+PAX7+MyoProg, MyoB2]
+  - [MyoB2, MyoC2]
+
+sampling:
+  target_population: MyoB1
+  removal_fraction: 0.75
+  n_repeats: 3
+  sampling_seed_base: 1000        # sampling seed for repeat r = base + r (separate from model seeds)
+  conditions: [full, targeted, random]
+  # Optional diagnostic control: random nonterminal removal matched to the stage
+  # distribution of the targeted removal. Not part of the 9 main fits unless the team adds it.
+  optional_conditions: []         # e.g. [random_stagematched]
+  min_retained_target_cells: 100  # feasibility rule: below this, lower the fraction or switch target
+
+model:
+  training_seeds: [0, 1, 2]       # owned by Person 2; repeat r uses training_seeds[r]
+  lam2: 1.0                      # tutorial's soft_regularized model
+  max_epochs: 1500               # early stopping monitors validation ELBO
+  posterior_samples: 30
+  ode_chunk_size: 2048           # checkpoint ODE cell chunks; retain full-batch loss and updates
+
+preprocessing:
+  pca_input: X                    # X (shipped per-cell normalized log expression) or log1p_spliced
+  n_comps: 50
+  n_neighbors: 30                 # matches uns['neighbors']['params'] in the shipped object
+  n_pcs: 30
+  neighbors_method: umap
+  metric: euclidean
+  knn_transformer: sklearn        # exact kNN (deterministic); avoids approximate pynndescent
+  preprocessing_seed: 0
+  minmax_scale: true              # RegVelo trains on min-max scaled Ms/Mu
+
+output:
+  prepared_dir: data/prepared_p2
+  results_dir: results/p2/preprocessing
+

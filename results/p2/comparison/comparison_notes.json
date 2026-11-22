@@ -1,0 +1,11 @@
+{
+  "completed_runs": 10,
+  "planned_runs": 10,
+  "pca_variants": [
+    "X"
+  ],
+  "evaluation": "Baseline pilots use their shared cells. Each main repeat uses the intersection of all 3 selected fits (X; full, targeted, random), including endpoint cells.",
+  "interpretation": "Signed stage correlation is a secondary biological check, not predictive accuracy. Latent-time Spearman measures rank stability. These are computational repeats, not independent biological replicates. Loss magnitudes across differently preprocessed inputs are not a model-selection score.",
+  "pca_guidance": "Recomputed PCA follows the removal experiment without retaining full-data PCA axes. Shipped PCA is an optional sensitivity analysis closer to the tutorial and retains axes learned from all cells. Only configured variants are included. Do not select the variant by the size or significance of the thinning effect.",
+  "pending_downstream": "Fate probabilities, transition CBC, and MSC/MYOG perturbation comparisons require the Person 3/4 outputs and are not assessed here."
+}

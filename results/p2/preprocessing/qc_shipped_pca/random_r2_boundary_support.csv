@@ -1,0 +1,5 @@
+source,target,n_source,n_target,n_source_with_target_neighbor,frac_source_with_target_neighbor
+PAX3+MyoProg,MyoB1,554,702,163,0.29422382671480146
+MyoB1,MyoC1,702,390,95,0.13532763532763534
+PAX3+PAX7+MyoProg,MyoB2,1682,1445,503,0.2990487514863258
+MyoB2,MyoC2,1445,594,297,0.2055363321799308

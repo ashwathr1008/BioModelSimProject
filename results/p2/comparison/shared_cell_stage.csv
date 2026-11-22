@@ -1,0 +1,12 @@
+scope,repeat,pca_input,condition,n_shared,stage_spearman
+baseline_pilots,0,tutorial,tutorial,12207,0.6518723654863241
+baseline_pilots,0,X,full,12207,0.5372776912805965
+shared_repeat,0,X,full,11104,0.5153878426177816
+shared_repeat,0,X,targeted,11104,0.5111177846847761
+shared_repeat,0,X,random,11104,0.4041133055903107
+shared_repeat,1,X,full,11105,0.5290123717413975
+shared_repeat,1,X,targeted,11105,0.505762832432527
+shared_repeat,1,X,random,11105,0.5665363227153487
+shared_repeat,2,X,full,11113,0.4601650978669842
+shared_repeat,2,X,targeted,11113,0.5663281336300092
+shared_repeat,2,X,random,11113,0.5186097872573107
