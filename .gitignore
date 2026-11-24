@@ -29,3 +29,31 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .DS_Store
+
+# Downloaded archives
+*.zip
+*.tar.gz
+
+# Person 3 - Temporary files and large outputs
+results/p3/cache/
+results/p3/tmp/
+results/p3/logs/
+results/p3/kernels/
+results/p3/**/*.npz
+results/p3/**/*.pkl
+results/p3/**/*.npy
+
+# Python caches and testing
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local environment settings
+.env
+.env.local
+
+# Windows / IDE
+.vscode/
+Thumbs.db
+Desktop.ini

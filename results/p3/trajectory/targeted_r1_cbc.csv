@@ -1,0 +1,5 @@
+source,target,pathway,mean_cbc,median_cbc,std_cbc,n_valid,n_invalid,n_source,n_target,condition,repeat
+PAX3+MyoProg,MyoB1,targeted_pathway,0.6762225662300173,0.6876885023617592,0.166196147224809,104,0,583,190,targeted,1
+MyoB1,MyoC1,targeted_pathway,0.8140254947519882,0.8449186599139584,0.1331128820275037,48,0,190,412,targeted,1
+PAX3+PAX7+MyoProg,MyoB2,control_pathway,0.651439736450399,0.6672847007038001,0.16834824165340206,622,0,1790,1527,targeted,1
+MyoB2,MyoC2,control_pathway,0.7895487760723762,0.8200393548411877,0.15296370867195377,463,0,1527,639,targeted,1
