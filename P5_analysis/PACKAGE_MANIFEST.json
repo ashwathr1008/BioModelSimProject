@@ -1,0 +1,28 @@
+{
+  "version": "2026-11-25-final-local-results-frozen",
+  "project": "BioModelSimProject: RegVelo under incomplete developmental sampling",
+  "entrypoint": "PROJECT_FINAL_GUIDE.md",
+  "readme": "README.md",
+  "status": "STATUS.md",
+  "frozen_hash_manifest": "FINAL_FREEZE_MANIFEST.json",
+  "verification": "python3 P5_analysis/verify_final_package.py",
+  "source": "P5_analysis(1).zip uploaded after successful local run; same measured output CSVs and images retained without recomputation",
+  "scope": {
+    "local_p5_main_tables": 18,
+    "local_p5_main_figures": 3,
+    "local_p5_report": "outputs/reports/findings.md",
+    "original_P3_P4_model_results": "remain in team repository, not reproduced inside P5 ZIP",
+    "P2_fitted_binary_models": "separate GitHub release assets"
+  },
+  "scientific_state": {
+    "baseline_fate": "executed",
+    "celltype_and_stage": "executed",
+    "paired_cbc": "executed",
+    "cross_layer_per_cell_correlation": "executed from original 18 P4 gzipped tables on user Mac",
+    "full_fit_repeat_reference": "executed",
+    "ten_by_ten_transition_matrices": "not executed",
+    "stage_matched_random_fits": "not executed",
+    "GRN_weight_stability": "not executed"
+  },
+  "important_note": "Use PROJECT_FINAL_GUIDE.md + outputs/tables for final report; historical outputs/verified_from_github notes may describe an earlier preliminary state."
+}

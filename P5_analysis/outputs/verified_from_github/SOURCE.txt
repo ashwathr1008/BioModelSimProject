@@ -1,0 +1,3 @@
+Computed on November 25, 2026 from the full contents of nine GitHub P3 fate CSVs (via connected GitHub fetch_blob), not from the local Mac folder. Every statistic uses cell-ID matched Full, Targeted and Random nonterminal cells within repeat; each source cell contributes equally. Numerical fields rounded to 8 decimals. See README.md for definitions. The full local run of run_analysis.py regenerates higher precision outputs.
+Repository: https://github.com/ashwathr1008/BioModelSimProject
+Paths: results/p3/fate/{full,targeted,random}_r{0,1,2}_fate.csv

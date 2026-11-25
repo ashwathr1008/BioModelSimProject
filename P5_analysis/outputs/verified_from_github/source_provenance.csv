@@ -1,0 +1,13 @@
+path,git_blob_sha,size_bytes
+results/p3/cell_level_cbc/all_cell_cbc.csv,e168b9e60be072f8f96275a16e974b22255af4cc,1178268
+results/p3/fate/full_r0_fate.csv,9ef632e34f3510570206dae8cc33493eb797605a,1581295
+results/p3/fate/full_r1_fate.csv,95ee63c9131beb6bc7b8fd63a710fa4fd5e2839f,1582879
+results/p3/fate/full_r2_fate.csv,67a6b7a0722b055ff59f3903fbdeaaf2e155e5c0,1582260
+results/p3/fate/random_r0_fate.csv,88585651f9ea2e32c4b6908fa8e533cbd2ce26ae,1536732
+results/p3/fate/random_r1_fate.csv,a764711954509d450635a9735bcd4b1b81da9beb,1535799
+results/p3/fate/random_r2_fate.csv,28cf8540b64a8670981a628870b38418cfb9c049,1531244
+results/p3/fate/targeted_r0_fate.csv,58cbab3d228eaf193e86de9147305ef42beca391,1554474
+results/p3/fate/targeted_r1_fate.csv,7f51e6657d65be7782206ae18de54c6bdc6a4e47,1559787
+results/p3/fate/targeted_r2_fate.csv,8506f7d0d4f3eb4192dab46d040b743a9d514f92,1556894
+results/p3/summary/all_cbc.csv,5e1c5957fa48a87f837d7ab401508ecb185ee2fd,4219
+results/p4/shared_cell_effects_by_repeat.csv,2326c87bd47b9a4a5e126f08f1d47005f08187a0,32249
