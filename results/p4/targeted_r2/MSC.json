@@ -1,0 +1,19 @@
+{
+  "condition": "targeted",
+  "repeat": 2,
+  "regulator": "MSC",
+  "seed": 4102,
+  "posterior_samples": 30,
+  "batch_size": 256,
+  "cutoff": 0,
+  "effects": 0,
+  "outgoing_weights_removed": 605,
+  "baseline_sha256": "7b139898623d758335bedc474561f8a74352f30c78d62ab0307535bac493f8ca",
+  "anchors_sha256": "bf4fdef07d53930c74a0e2299b45cb3bc65e8190a8211c2a67299833192fef19",
+  "n_cells": 11638,
+  "device": "cpu",
+  "seconds": 353.42537608300336,
+  "reference_cells": 256,
+  "reference_draws": 2,
+  "reference_exact": true
+}

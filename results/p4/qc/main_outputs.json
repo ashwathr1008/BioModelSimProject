@@ -1,0 +1,18 @@
+{
+  "main_analyses": 18,
+  "cell_regulator_endpoint_rows": 638694,
+  "shared_nonterminal_cells_by_repeat": {
+    "0": 8234,
+    "1": 8235,
+    "2": 8243
+  },
+  "max_abs_sum_of_delta_across_endpoints": 1.4195762360724729e-05,
+  "validated": [
+    "File digests",
+    "Published unperturbed probabilities by cell ID",
+    "Perturbed fate bounds and normalization",
+    "106 anchor identities and fates",
+    "ROC AUC against rank-based depletion",
+    "Paired contrast re-derived from wide cell-by-endpoint matrices"
+  ]
+}

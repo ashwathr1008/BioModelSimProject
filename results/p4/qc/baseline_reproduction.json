@@ -1,0 +1,12 @@
+{
+  "model": "full_r0",
+  "cells": 12207,
+  "anchors": 106,
+  "max_abs_difference": 4.107825191113079e-15,
+  "mean_abs_difference": 5.498524057848009e-16,
+  "per_endpoint_max": {
+    "PAX7+MyoProg1": 4.107825191113079e-15,
+    "MYH3+MyoC": 1.1102230246251565e-15,
+    "MYL3+MyoC": 5.551115123125783e-16
+  }
+}

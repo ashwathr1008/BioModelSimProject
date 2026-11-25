@@ -1,0 +1,19 @@
+{
+  "condition": "targeted",
+  "repeat": 0,
+  "regulator": "MYOG",
+  "seed": 4100,
+  "posterior_samples": 30,
+  "batch_size": 256,
+  "cutoff": 0,
+  "effects": 0,
+  "outgoing_weights_removed": 605,
+  "baseline_sha256": "009d21e57a5ef6e40be990c5632b05e7aad9d50f3f8219646c82df3e228a6a67",
+  "anchors_sha256": "bf4fdef07d53930c74a0e2299b45cb3bc65e8190a8211c2a67299833192fef19",
+  "n_cells": 11638,
+  "device": "cpu",
+  "seconds": 373.81475958402734,
+  "reference_cells": 256,
+  "reference_draws": 2,
+  "reference_exact": true
+}

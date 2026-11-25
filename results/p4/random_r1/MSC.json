@@ -1,0 +1,19 @@
+{
+  "condition": "random",
+  "repeat": 1,
+  "regulator": "MSC",
+  "seed": 4101,
+  "posterior_samples": 30,
+  "batch_size": 256,
+  "cutoff": 0,
+  "effects": 0,
+  "outgoing_weights_removed": 605,
+  "baseline_sha256": "36ae9e50e1a06fc28796d77f27c11900ef4a33e2a4680b468f7020951a21b0be",
+  "anchors_sha256": "bf4fdef07d53930c74a0e2299b45cb3bc65e8190a8211c2a67299833192fef19",
+  "n_cells": 11638,
+  "device": "cpu",
+  "seconds": 361.1069417500403,
+  "reference_cells": 256,
+  "reference_draws": 2,
+  "reference_exact": true
+}

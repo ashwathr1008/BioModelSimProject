@@ -1,0 +1,19 @@
+{
+  "condition": "tutorial",
+  "repeat": 0,
+  "regulator": "MSC",
+  "seed": 4100,
+  "posterior_samples": 30,
+  "batch_size": 256,
+  "cutoff": 0,
+  "effects": 0,
+  "outgoing_weights_removed": 605,
+  "baseline_sha256": "91984096b2716021f0b93ebba3abf1c046e3fa912396eb30a2d060c5a14b9540",
+  "anchors_sha256": "bf4fdef07d53930c74a0e2299b45cb3bc65e8190a8211c2a67299833192fef19",
+  "n_cells": 12207,
+  "device": "cpu",
+  "seconds": 381.44944258301985,
+  "reference_cells": 256,
+  "reference_draws": 2,
+  "reference_exact": true
+}
